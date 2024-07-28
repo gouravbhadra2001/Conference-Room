@@ -6,10 +6,11 @@ myVideo.muted = true;
 const user = prompt("Enter your name");
 
 var peer = new Peer({
-  host: '127.0.0.1',
+  host: 'conference-room-pekb.onrender.com',
   port: 3030,
   path: '/peerjs',
 });
+
 
 let myVideoStream;
 navigator.mediaDevices
